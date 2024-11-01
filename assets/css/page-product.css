@@ -1,0 +1,60 @@
+#form-cep {
+    max-width: 385px;
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+}
+
+#form-cep #cep {
+    height: 40px;
+    max-width: 100%;
+    background: #fff;
+    color: #666;
+    border: 1px solid #e5e5e5;
+    padding-left: 10px;
+    width: 100%;
+}
+
+
+#form-cep #submit {
+    background-color: #1e87f0;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 0 30px;
+    font-size: 14px;
+}
+
+#table-envios {
+    max-width: 385px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+#table-envios table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table-envios table thead th {
+    padding: 10px 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+#table-envios table thead th {
+    padding: 10px 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+#table-envios table .valores td {
+    padding: 6px 0;
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+#table-envios table .valores:not(:last-child) td {
+    border-bottom: 1px solid #ccc !important;
+}
